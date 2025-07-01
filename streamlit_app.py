@@ -29,7 +29,7 @@ import pandas as pd
 @st.cache_data  # Cache to avoid reloading every time
 def load_data():
     return pd.read_csv(
-        "/Users/mhmdgamal/Downloads/Airbnb Data/Listings.csv",
+        "airbnb_dashboard/Listings.csv",
         encoding="ISO-8859-1",
         low_memory=False
     )
