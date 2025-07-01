@@ -17,5 +17,4 @@ xgboost
 catboost
 lightgbm
 sentence_transformers
-pyarrow
 plotly
